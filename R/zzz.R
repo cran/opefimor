@@ -1,8 +1,11 @@
-.noGenerics <- TRUE
-
-.First.lib <- function(libname, pkgname)
-{
- cat("Companion package to the book:\n")
- cat("Option Pricing and Estimation of Financial Models in R,\nWiley, Chichester, S.M. Iacus (2011)\n")
- cat("\nFor more informations type: vignette(\"opefimor\") or ?opefimor\n")
+.onAttach <- function(libname, pkgname) {
+    Pver <- read.dcf(file=system.file("DESCRIPTION", package=pkgname),
+    fields="Version")
+    packageStartupMessage(paste(pkgname, Pver))
+    packageStartupMessage("Companion package to the book")
+    packageStartupMessage(sQuote('Option Pricing and Estimation of Financial Models in R'))
+    packageStartupMessage("Wiley, Chichester, S.M. Iacus (2011).")
+    packageStartupMessage(paste("For more informations type ",
+    sQuote("vignette(\"opefimor\")"),
+    "or ?opefimor"))
 }

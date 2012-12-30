@@ -1,6 +1,6 @@
-d23f1152de03d9d5422c9ad324de3b7f *DESCRIPTION
+6ce5711028bbc7bbbd49de71d4d5d46c *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-35147f146cc1897961a842ebb2784432 *R/zzz.R
+aaf9923cb004eae250e6584d0fc04e82 *R/zzz.R
 63106d17f3074e0d4e2a6972563f8074 *inst/book/appA.R
 4ed991d66aba10d61ea1a5957518c2d5 *inst/book/appB.R
 4d4d1d19008b685cd2e9854bab1f6cad *inst/book/cap2.R
@@ -13,5 +13,6 @@ e0eda25489c8527a1c3a8c449ff4e813 *inst/book/cap7.R
 2121c602c33ae4135a66a5dff43d6a03 *inst/book/cap9.R
 916b6d3a7016658ebd55f24d18048971 *inst/doc/opefimor.Rnw
 c75f76fc3bd7b2673ad5e647ece9a210 *inst/doc/opefimor.pdf
-2bfa629976119bea6a9d0c1b4ea67314 *inst/doc/opefimor.tex
 5b79c72052302eae81aea6c546c4bad5 *man/opefimor-package.Rd
+916b6d3a7016658ebd55f24d18048971 *vignettes/opefimor.Rnw
+cef2810255872106bac4173294e16124 *vignettes/opefimor.tex
